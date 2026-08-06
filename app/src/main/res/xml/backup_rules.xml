@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- Lingora's only local storage is small app preferences (chosen
+         languages, learning goal, voice settings). Nothing sensitive is
+         written to disk, so it is safe to include in backups. -->
+    <include domain="sharedpref" path="." />
+</full-backup-content>

@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. Lingora renders everything through Jetpack
+         Compose; this XML theme only controls the window before Compose
+         takes over, and the system bar colors around it. -->
+    <style name="Theme.Lingora" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/aurora_base</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="23">false</item>
+    </style>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- A simple abstract aurora mark: two overlapping glowing circles. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#2DD4BF"
+        android:fillAlpha="0.85"
+        android:pathData="M40,54m-22,0a22,22 0,1 1,44 0a22,22 0,1 1,-44 0" />
+    <path
+        android:fillColor="#8B5CF6"
+        android:fillAlpha="0.85"
+        android:pathData="M68,54m-22,0a22,22 0,1 1,44 0a22,22 0,1 1,-44 0" />
+</vector>

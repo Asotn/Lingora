@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Lingora only ever talks to its translation backend over HTTPS. This
+     config explicitly forbids plain-text (cleartext) network traffic
+     app-wide, so an accidental http:// URL can never silently leak data. -->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>

@@ -1,0 +1,88 @@
+package com.lingora.app.data.model
+
+import java.util.Locale
+
+/**
+ * The full catalog of languages Lingora offers in its two language pickers.
+ * Adding a new language only ever means adding a line here.
+ */
+object SupportedLanguages {
+
+    val all: List<Language> = listOf(
+        Language("en", "English", "English", Locale("en", "US")),
+        Language("es", "Spanish", "Español", Locale("es", "ES")),
+        Language("fr", "French", "Français", Locale("fr", "FR")),
+        Language("de", "German", "Deutsch", Locale("de", "DE")),
+        Language("it", "Italian", "Italiano", Locale("it", "IT")),
+        Language("pt", "Portuguese", "Português", Locale("pt", "PT")),
+        Language("nl", "Dutch", "Nederlands", Locale("nl", "NL")),
+        Language("ru", "Russian", "Русский", Locale("ru", "RU")),
+        Language("uk", "Ukrainian", "Українська", Locale("uk", "UA")),
+        Language("pl", "Polish", "Polski", Locale("pl", "PL")),
+        Language("cs", "Czech", "Čeština", Locale("cs", "CZ")),
+        Language("sk", "Slovak", "Slovenčina", Locale("sk", "SK")),
+        Language("ro", "Romanian", "Română", Locale("ro", "RO")),
+        Language("hu", "Hungarian", "Magyar", Locale("hu", "HU")),
+        Language("bg", "Bulgarian", "Български", Locale("bg", "BG")),
+        Language("el", "Greek", "Ελληνικά", Locale("el", "GR")),
+        Language("sv", "Swedish", "Svenska", Locale("sv", "SE")),
+        Language("no", "Norwegian", "Norsk", Locale("no", "NO")),
+        Language("da", "Danish", "Dansk", Locale("da", "DK")),
+        Language("fi", "Finnish", "Suomi", Locale("fi", "FI")),
+        Language("is", "Icelandic", "Íslenska", Locale("is", "IS")),
+        Language("tr", "Turkish", "Türkçe", Locale("tr", "TR")),
+        Language("ar", "Arabic", "العربية", Locale("ar", "SA")),
+        Language("he", "Hebrew", "עברית", Locale("he", "IL")),
+        Language("fa", "Persian", "فارسی", Locale("fa", "IR")),
+        Language("ur", "Urdu", "اردو", Locale("ur", "PK")),
+        Language("hi", "Hindi", "हिन्दी", Locale("hi", "IN")),
+        Language("bn", "Bengali", "বাংলা", Locale("bn", "BD")),
+        Language("pa", "Punjabi", "ਪੰਜਾਬੀ", Locale("pa", "IN")),
+        Language("ta", "Tamil", "தமிழ்", Locale("ta", "IN")),
+        Language("te", "Telugu", "తెలుగు", Locale("te", "IN")),
+        Language("mr", "Marathi", "मराठी", Locale("mr", "IN")),
+        Language("gu", "Gujarati", "ગુજરાતી", Locale("gu", "IN")),
+        Language("kn", "Kannada", "ಕನ್ನಡ", Locale("kn", "IN")),
+        Language("ml", "Malayalam", "മലയാളം", Locale("ml", "IN")),
+        Language("ne", "Nepali", "नेपाली", Locale("ne", "NP")),
+        Language("si", "Sinhala", "සිංහල", Locale("si", "LK")),
+        Language("th", "Thai", "ไทย", Locale("th", "TH")),
+        Language("vi", "Vietnamese", "Tiếng Việt", Locale("vi", "VN")),
+        Language("id", "Indonesian", "Bahasa Indonesia", Locale("id", "ID")),
+        Language("ms", "Malay", "Bahasa Melayu", Locale("ms", "MY")),
+        Language("tl", "Filipino", "Filipino", Locale("fil", "PH")),
+        Language("km", "Khmer", "ខ្មែរ", Locale("km", "KH")),
+        Language("lo", "Lao", "ລາວ", Locale("lo", "LA")),
+        Language("my", "Burmese", "မြန်မာ", Locale("my", "MM")),
+        Language("zh-CN", "Chinese (Simplified)", "中文（简体）", Locale.SIMPLIFIED_CHINESE),
+        Language("zh-TW", "Chinese (Traditional)", "中文（繁體）", Locale.TRADITIONAL_CHINESE),
+        Language("ja", "Japanese", "日本語", Locale.JAPANESE),
+        Language("ko", "Korean", "한국어", Locale.KOREAN),
+        Language("mn", "Mongolian", "Монгол", Locale("mn", "MN")),
+        Language("ka", "Georgian", "ქართული", Locale("ka", "GE")),
+        Language("hy", "Armenian", "Հայերեն", Locale("hy", "AM")),
+        Language("az", "Azerbaijani", "Azərbaycan", Locale("az", "AZ")),
+        Language("kk", "Kazakh", "Қазақ", Locale("kk", "KZ")),
+        Language("uz", "Uzbek", "Oʻzbek", Locale("uz", "UZ")),
+        Language("sw", "Swahili", "Kiswahili", Locale("sw", "KE")),
+        Language("am", "Amharic", "አማርኛ", Locale("am", "ET")),
+        Language("zu", "Zulu", "isiZulu", Locale("zu", "ZA")),
+        Language("af", "Afrikaans", "Afrikaans", Locale("af", "ZA")),
+        Language("hr", "Croatian", "Hrvatski", Locale("hr", "HR")),
+        Language("sr", "Serbian", "Српски", Locale("sr", "RS")),
+        Language("sl", "Slovenian", "Slovenščina", Locale("sl", "SI")),
+        Language("lt", "Lithuanian", "Lietuvių", Locale("lt", "LT")),
+        Language("lv", "Latvian", "Latviešu", Locale("lv", "LV")),
+        Language("et", "Estonian", "Eesti", Locale("et", "EE")),
+        Language("ca", "Catalan", "Català", Locale("ca", "ES")),
+        Language("eu", "Basque", "Euskara", Locale("eu", "ES")),
+        Language("ga", "Irish", "Gaeilge", Locale("ga", "IE")),
+        Language("cy", "Welsh", "Cymraeg", Locale("cy", "GB")),
+        Language("mt", "Maltese", "Malti", Locale("mt", "MT")),
+        Language("sq", "Albanian", "Shqip", Locale("sq", "AL")),
+        Language("mk", "Macedonian", "Македонски", Locale("mk", "MK")),
+        Language("bs", "Bosnian", "Bosanski", Locale("bs", "BA"))
+    )
+
+    fun findByCode(code: String): Language? = all.firstOrNull { it.code == code }
+}
